@@ -86,9 +86,8 @@ Ensure you have the following installed:
 
 | Splash Screen      | Task List        | Add Task        |
 |--------------------|------------------|-----------------|
-| ![Splash](https://via.placeholder.com/150) | ![List](https://via.placeholder.com/150) | ![Add](https://via.placeholder.com/150) |
+| ![Splash](https://github.com/user-attachments/assets/15a1d287-218e-4f96-b97d-4f58cf52a831/150) | ![List](https://github.com/user-attachments/assets/08739839-f346-46ba-b969-843cf320d3a7/150) | ![Add](https://github.com/user-attachments/assets/dec8fbca-fc54-42a0-92d1-cee941d8ee84/150) |
 | Splash Screen      | Task List        | Add Task        |
-|--------------------|------------------|-----------------|
 | ![Splash](https://via.placeholder.com/150) | ![List](https://via.placeholder.com/150) | ![Add](https://via.placeholder.com/150) |
 
 ---
