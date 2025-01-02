@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../model/task_model.dart';
 
 class AddTaskDialog extends StatefulWidget {
-  final Task? task; // Pass an existing task for editing
+  final Task? task;
 
   AddTaskDialog({this.task});
 
@@ -20,7 +20,6 @@ class _AddTaskDialogState extends State<AddTaskDialog> {
   void initState() {
     super.initState();
     if (widget.task != null) {
-      // Pre-fill fields if editing a task
       _titleController.text = widget.task!.title;
       _descriptionController.text = widget.task!.description;
       _dueDate = widget.task!.dueDate;
@@ -90,7 +89,7 @@ class _AddTaskDialogState extends State<AddTaskDialog> {
           onPressed: () {
             if (_titleController.text.isNotEmpty && _descriptionController.text.isNotEmpty) {
               final updatedTask = Task(
-                id: widget.task?.id, // Retain ID for updates
+                id: widget.task?.id,
                 title: _titleController.text,
                 description: _descriptionController.text,
                 dueDate: _dueDate,
