@@ -87,8 +87,8 @@ Ensure you have the following installed:
 | Splash Screen      | Task List        | Add Task        |
 |--------------------|------------------|-----------------|
 | ![Splash](https://github.com/user-attachments/assets/15a1d287-218e-4f96-b97d-4f58cf52a831) | ![List](https://github.com/user-attachments/assets/08739839-f346-46ba-b969-843cf320d3a7) | ![Add](https://github.com/user-attachments/assets/dec8fbca-fc54-42a0-92d1-cee941d8ee84) |
-| Splash Screen      | Task List        | Add Task        |
-| ![Splash](https://github.com/user-attachments/assets/72477184-d593-497b-ae57-465fd527c674) | ![List](https://github.com/user-attachments/assets/bbbc3573-f549-4dec-81a4-529fb4300554) | ![Add](https://github.com/user-attachments/assets/4fb1a35b-0686-4e38-b540-526b4fb261c0) |
+|       | Edit Task        | Complete Task        |
+| ![Splash](https://github.com/user-attachments/assets/72477184-d593-497b-ae57-465fd527c674) | ![List](https://github.com/user-attachments/assets/bbbc3573-f549-4dec-81a4-529fb4300554) | ![Add](https://github.com/user-attachments/assets/a4089b0f-5400-4089-988c-a7f034b96a95)) |
 
 ---
 
