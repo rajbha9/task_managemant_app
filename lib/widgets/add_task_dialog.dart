@@ -5,7 +5,7 @@ import '../model/task_model.dart';
 class AddTaskDialog extends StatefulWidget {
   final Task? task;
 
-  AddTaskDialog({this.task});
+  const AddTaskDialog({super.key, this.task});
 
   @override
   _AddTaskDialogState createState() => _AddTaskDialogState();

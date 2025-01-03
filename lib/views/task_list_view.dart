@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -11,7 +11,7 @@ import '../widgets/add_task_dialog.dart';
 class TaskListView extends ConsumerWidget {
   final VoidCallback toggleTheme;
 
-  TaskListView({required this.toggleTheme});
+  const TaskListView({super.key, required this.toggleTheme});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -74,7 +74,7 @@ class TaskListView extends ConsumerWidget {
                               task.isCompleted?ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
                                   backgroundColor: Colors.orange,
-                                  content: Text('Task is already Completed',style: TextStyle(color: Colors.white),),
+                                  content: Text('Task is already Completed',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                                 ),
                               ):{
                               ref

@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod/src/framework.dart';
 import '../model/task_model.dart';
 import '../viewmodels/task_viewmodel.dart';
 
 class CustomTaskTile extends StatelessWidget {
   final Task task;
 
-  CustomTaskTile({required this.task});
+  const CustomTaskTile({super.key, required this.task});
 
   @override
   Widget build(BuildContext context) {
@@ -47,5 +46,5 @@ class CustomTaskTile extends StatelessWidget {
 }
 
 extension on BuildContext {
-  read(AlwaysAliveRefreshable<TaskNotifier> notifier) {}
+  read(notifier) {}
 }
